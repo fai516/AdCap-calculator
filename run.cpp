@@ -14,7 +14,8 @@ int main(){
 
 	//S=a*(r^n-1)/(r-1)
 
-	cout << a*(pow(r,to-from)-1)/(r-1) << endl;
+	long double ans =  a*(pow(r,to-from)-1)/(r-1);  
+	cout << ans << endl;
 
 	return 0;
 }
